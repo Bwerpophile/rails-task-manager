@@ -1,0 +1,10 @@
+<h1><%= @task.details %></h1>
+<div class="container">
+<input type="checkbox" name="not completed">
+<p>This task is not completet yet !</p>
+</div>
+
+<%= link_to "Back to the list", tasks_path %>
+<%= link_to "Edit a task", edit_task_path(@task) %>
+
+
